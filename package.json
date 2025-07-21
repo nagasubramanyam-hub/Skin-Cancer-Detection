@@ -1,0 +1,13 @@
+{
+    "name": "skin-cancer-detection-web",
+    "version": "1.0.0",
+    "engines": {
+      "node": "18.x",
+      "npm": "9.x"
+    },
+    "scripts": {
+      "start": "cd skin-cancer-web-app/frontend && npm start",
+      "build": "cd skin-cancer-web-app/frontend && npm run build",
+      "heroku-postbuild": "cd skin-cancer-web-app/frontend && npm install && npm run build"
+    }
+  }
